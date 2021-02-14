@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "name": "services"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Title Here"
+    },
+    "content": {
+      "type": "string",
+      "default": "Content Here"
+    }
+  }
+}

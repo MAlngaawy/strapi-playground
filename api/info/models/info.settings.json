@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "infos",
+  "info": {
+    "name": "info",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "address": {
+      "type": "text"
+    },
+    "telephone": {
+      "type": "biginteger"
+    }
+  }
+}
